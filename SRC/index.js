@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 const port = 3000;
 
-mongoose.connect('mongodb+srv://holyfreire:fyQT3tgQxFwp2Cr1@crud.qnnhw8i.mongodb.net/?retryWrites=true&w=majority&appName=Crud');
+mongoose.connect('mongodb+srv://holyfreire:senha@crud.qnnhw8i.mongodb.net/?retryWrites=true&w=majority&appName=Crud');
 
 const filmSchema = new mongoose.Schema({
     title: { type: String, required: true },
